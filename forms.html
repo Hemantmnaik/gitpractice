@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <form action="#" method="post">
+        <label for="uname">User name</label>
+        <input
+        type="text"
+        name="username"
+        value=""
+        placeholder="enter your name"
+        id="uname"
+        /> -->
+
+    <form action="#" method="post">
+        <fieldset><legend>Personal Information</legend>
+            Name:<input type="text" name="username" value="" placeholder="Enter your name"/><br/>
+        Password:<input type="Password" name="userpasword" /><br/>
+        email:<input type="email" name="emailname"/><br/>
+
+        </fieldset>
+        
+         gender:<input type="radio" name="Gender" value="Male"/>Male
+         <input type="radio" name="Gender" value="Female"/>Female <br/>
+         courses:<input type="checkbox" name="course"/>Javafs
+         <input type="checkbox" name="course"/>Jsfs
+         <input type="checkbox" name="course"/>pyps<br/>
+         adress:
+         <textarea name=""  placeholder="enter adress" cols="20" rows="20"></textarea><br>
+        Dob:<input type="date" name="Dob"/><br/>
+        Date and time:<input type="datetime-local" name=""><br>
+        Time:<input type="time" name=""><br>
+        contact:<input type="tel" name="contact" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}"placeholder="123-4567-789"><br/>
+        City:
+        <select name="places" size="3" multiple >
+            <option value="Gokarna">Gokarna</option>
+            <option value="Kumta">Kumta</option>
+            <option value="Sirsi">Sirsi</option>
+            <option value="Karwar">Karwar</option>
+         </select>
+         <br>
+         <input list="colors"/>
+         <datalist id="colors">
+         <option value="red">Red</option>
+         <option value="blue">blue</option>
+         <option value="yellow">Yellow</option>
+        </datalist><br>
+        file:
+        <input type="file"><br>
+         <button>submit</button>
+    </form>
+    
+</body>
+</html>
